@@ -38,3 +38,7 @@ Version 1.4: Auswahl zwischen bestehender Datenbank und Neuanlage vor der Passwo
 
 
 Version V1.61: Fehlendes Filterfeld im Waffenbestand ergänzt und Versionsanzeige auf zweistellige Nachkommastellen umgestellt.
+
+
+## Version 1.62
+Bestehende Waffen im Waffenbestand über „Bearbeiten“ ändern. Verleihstatus, Entleiher, Verleihdatum und Rückgabedatum werden verschlüsselt gespeichert und im Druckbericht aufgeführt.
