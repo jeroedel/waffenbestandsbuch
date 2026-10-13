@@ -21,3 +21,15 @@ Offlinefähige Browser-App mit WBK-Verwaltung, NWR-Feldern, Erwerbsrechner und P
 - Rechtliche Berechnung ist eine unverbindliche Orientierung; Ausnahmen und Grenztage sind nicht abschließend geprüft.
 - Kein automatisches Update des Datenbankschemas garantiert. Vor Updates eine Sicherung anlegen.
 - Kein produktiver Sicherheitstest oder unabhängiges Audit erfolgt.
+
+
+## Version 1.1
+
+Seitenmenü für Übersicht, Waffenbestand, Erfassung, WBK-Verwaltung, Erwerbsrechner und Datenbank.
+Munitionserwerb wird je Waffe mit Ja, Nein oder Unbekannt erfasst. Vorhandene verschlüsselte
+Datenbanken im Format `erwerbsrechner-v2` bleiben kompatibel.
+Nach dem GitHub-Upload kann der Service Worker eine ältere Version im Cache halten.
+Gegebenenfalls die App vollständig schließen und neu öffnen.
+
+## Version 1.2
+Das Dashboard zeigt das automatisch berechnete nächste Erwerbsdatum, Bestandszahlen und relevante Erwerbe. Keine Datumsauswahl.
