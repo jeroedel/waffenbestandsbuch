@@ -42,3 +42,10 @@ Version V1.61: Fehlendes Filterfeld im Waffenbestand ergänzt und Versionsanzeig
 
 ## Version 1.62
 Bestehende Waffen im Waffenbestand über „Bearbeiten“ ändern. Verleihstatus, Entleiher, Verleihdatum und Rückgabedatum werden verschlüsselt gespeichert und im Druckbericht aufgeführt.
+
+
+## Version 1.63
+- iPad-Formular mit responsiven Eingabefeldern.
+- Verleih als Checkbox; bei Deaktivierung werden Datum und Leihnehmer im Formular geleert und beim Speichern aus dem Waffeneintrag entfernt.
+- Personenverwaltung für Verleiher und Leihnehmer; Angaben sind Bestandteil der verschlüsselten Datenbank.
+- Druckbarer Leihschein nach der vom Nutzer bereitgestellten Vorlage. Vor dem Drucken Verleih speichern. Ausdrucke sind unverschlüsselt.
