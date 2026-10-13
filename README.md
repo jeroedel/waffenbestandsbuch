@@ -61,5 +61,9 @@ V1.65: Menüeinträge Datenbank speichern und Abmelden. Wenn der letzte Export l
 - Der Leihschein-Druckknopf wird nach dem Speichern gültiger Verleihangaben blau und aktiv; bei nicht gespeicherten Verleihänderungen wieder grau und deaktiviert.
 - Klarere Bezeichnung der Online-Web-App mit lokal verschlüsselter Datenbank.
 
-## V1.67 Fehlerprotokoll
+## V1.68 Fehlerprotokoll
 Fehlermeldungen bleiben sichtbar und werden mit ISO-Zeitstempel im lokalen IndexedDB-Speicher protokolliert (maximal 500 Einträge). Über die Datenbankseite lässt sich das Protokoll als JSON-Datei herunterladen. Statusmeldungen verschwinden nach 10 Sekunden. Das Fehlerprotokoll wird nicht automatisch synchronisiert oder mit der verschlüsselten Datenbank exportiert. Es liegt lokal unverschlüsselt vor; Fehlermeldungen dürfen deshalb keine Geheimnisse enthalten.
+
+
+## V1.69 Leihpersonen und WBK-Zuordnung
+Leihnehmer können den WBK-Typ grün/gelb erfassen. Für den Verleiher werden keine separaten WBK-Personendatensätze benötigt: Der Leihschein übernimmt die der Waffe zugeordnete WBK aus der WBK-Verwaltung. Persönliche Anschrift des Verleihers wird weiterhin im Standardverleiher-Profil verwaltet. Bereits angelegte doppelte Verleiher können nach Prüfung gelöscht werden.
