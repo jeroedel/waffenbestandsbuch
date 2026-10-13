@@ -49,3 +49,9 @@ Bestehende Waffen im Waffenbestand über „Bearbeiten“ ändern. Verleihstatus
 - Verleih als Checkbox; bei Deaktivierung werden Datum und Leihnehmer im Formular geleert und beim Speichern aus dem Waffeneintrag entfernt.
 - Personenverwaltung für Verleiher und Leihnehmer; Angaben sind Bestandteil der verschlüsselten Datenbank.
 - Druckbarer Leihschein nach der vom Nutzer bereitgestellten Vorlage. Vor dem Drucken Verleih speichern. Ausdrucke sind unverschlüsselt.
+
+## V1.64
+Beim Speichern einer bestehenden Waffe bleibt die Bearbeitungsmaske mit den aktuellen Werten geöffnet. Neue Waffen werden nach dem Speichern weiterhin zurückgesetzt.
+
+
+V1.65: Menüeinträge Datenbank speichern und Abmelden. Wenn der letzte Export länger als 20 Sekunden zurückliegt oder Daten geändert wurden, startet Abmelden zunächst den Download und fragt nach erfolgreichem Ablegen. Der Browser kann das tatsächliche Ablegen in Dateien/OneDrive nicht technisch überprüfen.
