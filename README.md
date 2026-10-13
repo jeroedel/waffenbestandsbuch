@@ -35,3 +35,6 @@ Gegebenenfalls die App vollständig schließen und neu öffnen.
 Das Dashboard zeigt das automatisch berechnete nächste Erwerbsdatum, Bestandszahlen und relevante Erwerbe. Keine Datumsauswahl.
 
 Version 1.4: Auswahl zwischen bestehender Datenbank und Neuanlage vor der Passworteingabe.
+
+
+Version V1.61: Fehlendes Filterfeld im Waffenbestand ergänzt und Versionsanzeige auf zweistellige Nachkommastellen umgestellt.
