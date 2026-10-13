@@ -55,3 +55,11 @@ Beim Speichern einer bestehenden Waffe bleibt die Bearbeitungsmaske mit den aktu
 
 
 V1.65: Menüeinträge Datenbank speichern und Abmelden. Wenn der letzte Export länger als 20 Sekunden zurückliegt oder Daten geändert wurden, startet Abmelden zunächst den Download und fragt nach erfolgreichem Ablegen. Der Browser kann das tatsächliche Ablegen in Dateien/OneDrive nicht technisch überprüfen.
+
+## Version 1.66
+- Statusmeldungen verschwinden automatisch nach 10 Sekunden.
+- Der Leihschein-Druckknopf wird nach dem Speichern gültiger Verleihangaben blau und aktiv; bei nicht gespeicherten Verleihänderungen wieder grau und deaktiviert.
+- Klarere Bezeichnung der Online-Web-App mit lokal verschlüsselter Datenbank.
+
+## V1.67 Fehlerprotokoll
+Fehlermeldungen bleiben sichtbar und werden mit ISO-Zeitstempel im lokalen IndexedDB-Speicher protokolliert (maximal 500 Einträge). Über die Datenbankseite lässt sich das Protokoll als JSON-Datei herunterladen. Statusmeldungen verschwinden nach 10 Sekunden. Das Fehlerprotokoll wird nicht automatisch synchronisiert oder mit der verschlüsselten Datenbank exportiert. Es liegt lokal unverschlüsselt vor; Fehlermeldungen dürfen deshalb keine Geheimnisse enthalten.
